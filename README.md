@@ -76,5 +76,7 @@ where -e is path to trained emotiona model and -ag is path to trained age-gender
 
 **Note :** For inference, you can download pretrained models from [here](https://drive.google.com/drive/u/0/folders/1tkGB-yaBjrdW2tSiKgo397L3FDnwJdAG) and place it inside `models/` directory. "For age-gender model it automatically downloaded for TensorFlow backend." from [original repo](https://github.com/yu4u/age-gender-estimation).
 
+**The default values of emotion model and age-gender model are set. No need to give (-e, -ag) arguement, if you want to run inference only.**
+
 
 
