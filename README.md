@@ -6,6 +6,8 @@ Automatic emotion, age and gender classification has become relevant to an incre
 
 ![overview](https://github.com/Devashi-Choudhary/Emotion-Age-Gender-Detector/blob/master/ReadMe_Images/o.png)
 
+As shown above, the [Wide-Resnet Architecture](https://medium.com/@SeoJaeDuk/wide-residual-networks-with-interactive-code-5e190f8f25ec) is used for training of age-gender detection using faces and the [Convolutional Neural Network (CNN)](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148) is used for traing of emotion detection from facial expression. For testing, first the face is detected using [dlib](https://medium.com/data-science-blog/face-detection-with-python-and-dlib-ae599e73421c) and passed to trained model for prediction.
+
 # Dataset Used
 
 1. For training of emotion model, [fer2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) dataset is used. Fer2013 datset that contains 30,000 images of facial expressions grouped in seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise and Neutral.
