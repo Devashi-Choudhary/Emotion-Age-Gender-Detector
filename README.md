@@ -1,6 +1,8 @@
 # Emotion-Age-Gender-Detector
 
-Automatic emotion, age and gender classification has become relevant to an increasing amount of applications, particularly since the rise of social platforms and social media. In this project, face images of persons were trained using deep learning architecture, and we try to detect emotion, age and gende with high success rate. 
+Automatic emotion, age and gender classification has become relevant to an increasing amount of applications, particularly since the rise of social platforms and social media. In this project, face images of persons were trained using deep learning architecture, and we try to detect emotion, age and gender with high success rate. 
+
+[video](https://www.youtube.com/watch?v=OcFS5-RDlL0)
 
 # High Level Overview of Emotion-Age-Gender-Detector
 
@@ -35,7 +37,7 @@ Deep Learning based Emotion-Age-Gender-Detector architecture uses [OpenCV](https
 
 For fer2013 dataset, you only need `fer2013.csv` file. 
 
-For [IMDB](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar) or [wiki](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/wiki_crop.tar) dataset you need `.mat` file. After getting .mat file, run the command following command for filter out noise data and serialize images and labels for training into .mat file.
+For [IMDB](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/imdb_crop.tar) or [wiki](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/wiki_crop.tar) dataset you need `.mat` file. After getting .mat file, run the command to filter out noise data and serialize images and labels for training into .mat file.
 
 > `python3 mat_file.py --output data/imdb_db.mat --db imdb --img_size 64`
 
@@ -81,3 +83,10 @@ where -e is path to trained emotiona model and -ag is path to trained age-gender
 
 ![results](https://github.com/Devashi-Choudhary/Emotion-Age-Gender-Detector/blob/master/ReadMe_Images/results.png)
 
+# References 
+1. [fer2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+2. [IMDB or wiki](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
+3. [Wide Residual Networks](https://arxiv.org/abs/1605.07146)
+4. [age-gender-estimation](https://github.com/yu4u/age-gender-estimation)
+5. [facial-expression-recognition-using-cnn](https://github.com/amineHorseman/facial-expression-recognition-using-cnn)
+6. [dlib for face detection](https://medium.com/data-science-blog/face-detection-with-python-and-dlib-ae599e73421c)
