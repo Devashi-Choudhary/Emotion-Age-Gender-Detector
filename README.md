@@ -48,7 +48,7 @@ where --path is path to fer2013 csv file.
 
 For training of age-gender detector model using face, you need to run the following command on terminal:
 
-> `python3 train.py --input data/imdb_db.mat`
+> `python3 train_age_gender_model.py --input data/imdb_db.mat`
 
 where --input is path to .mat file.
 
