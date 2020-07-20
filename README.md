@@ -2,7 +2,11 @@
 
 Automatic emotion, age and gender classification has become relevant to an increasing amount of applications, particularly since the rise of social platforms and social media. In this project, face images of persons were trained using deep learning architecture, and we try to detect emotion, age and gender with high success rate. 
 
-[video](https://www.youtube.com/watch?v=OcFS5-RDlL0)
+![image](https://github.com/Devashi-Choudhary/Emotion-Age-Gender-Detector/blob/master/ReadMe_Images/10.JPG)
+
+The sample image from video.
+
+[You-Tube Video](https://www.youtube.com/watch?v=OcFS5-RDlL0)
 
 # High Level Overview of Emotion-Age-Gender-Detector
 
